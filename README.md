@@ -48,7 +48,7 @@
 
 - belongs_to :user
 - belongs_to :item
-- has_one :addresse
+- has_one :address
 
 ## addressesテーブル
 
@@ -57,7 +57,7 @@
 | postal_code     | string     | null: false                    |
 | prefecture_id   | integer    | null: false                    |
 | city            | string     | null: false                    |
-| addresses       | string     | null: false                    |
+| address         | string     | null: false                    |
 | building        | string     |                                |
 | phone_number    | string     | null: false                    |
 | purchase_record | references | null: false  foreign_key: true |
